@@ -1,0 +1,10 @@
+x=imread('C:\Users\l164066\Desktop\Orignal.tif');
+y=imread('C:\Users\l164066\Desktop\color.tif');
+N=max(x(:));
+image(x); 
+colormap(rand(N,3));
+axis('image1');
+M=max(y(:));
+image(y); 
+colormap(rand(M,3));
+axis('image2');
